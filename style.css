@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Section-1 : Navbar */
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 88px;
+    width: 1239.2px;
+
+}
+
+.netflix-main {
+    width: 1513px;
+
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    filter: brightness(40%) contrast(100%) grayscale(0%);
+}
+
+.netflix {
+    height: 85px;
+    width: 145px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+select:focus,
+select:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.lang-select {
+    font-size: 16px;
+    height: 32px;
+    color: white;
+    background-color: black;
+    border: 0.1px solid #a19a9a;
+    padding: 5px 19px;
+    border-radius: 4px;
+
+}
+
+.sign-in {
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 6px 13px;
+    font-size: 17px;
+    margin: 12px;
+
+}
+
+.sign-in a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Section-2 : Description */
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.description {
+    color: white;
+    font-size: 40px;
+    margin-top: 190px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shows h1 {
+    font-size: 63px;
+    width: 600px;
+    height: 140px;
+}
+
+.shows p {
+    font-size: 20px;
+    text-align: center;
+    margin: 16px 0px 32px;
+}
+
+.shows h3 {
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Email address */
+
+.email {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 30px 10px;
+}
+
+
+.email input {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: 0.1px solid whitesmoke;
+    padding: 20px 250px 8px 20px;
+    font-size: 18px;
+    border: 2px solid #a19a9a;
+    border-radius: 4px;
+    color: aliceblue;
+}
+
+.get-btn button {
+    margin: 8px;
+    width: 175px;
+    height: 50px;
+    background-color: rgba(245, 15, 15, 0.915);
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 4px;
+}
+
+/* Watch-Box */
+
+.watch h1 {
+    text-align: start;
+    margin: 0px 24px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.box {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 24px;
+    border-radius: 15px;
+    background-color: aqua;
+    position: relative;
+    height: 280px;
+    width: 280px;
+    margin: 10px;
+    background-image: linear-gradient(to bottom right, rgb(9, 6, 10), rgb(48, 41, 64), rgb(64, 0, 128));
+}
+
+.box div {
+    padding: 20px 18px;
+    text-align: start;
+}
+
+.box p {
+    padding: 0px 3px 0px 18px;
+    font-size: 16px;
+    text-align: start;
+}
+
+.box img {
+    height: 72px;
+    width: 72px;
+}
+
+.box .icon {
+    align-self: flex-end;
+    position: absolute;
+    bottom: 10px;
+}
+
+/* Question */
+
+.que-container h2 {
+    text-align: start;
+    margin: 55px 0px 16px 9px;
+}
+
+.question li {
+    list-style: none;
+}
+
+.question button {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #272727;
+    width: 1223.2px;
+    height: 84px;
+    margin: 9px;
+    padding: 24px;
+    cursor: pointer;
+    font-size: 24px;
+    border: none;
+}
+
+.question button:hover {
+    background-color: #434343;
+}
+
+
+/* Email-2 */
+
+.email2 h3 {
+    font-size: 16px;
+    margin-top: 65px;
+}
+
+.call h2 {
+    color: #bab7b7;
+    font-size: 16px;
+    text-align: start;
+    margin: 14px 0px;
+}
+
+/* Footer */
+
+a {
+    color: #bab7b7;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 302px);
+    color: #bab7b7;
+}
+
+.item {
+    text-align: start;
+    font-size: 14px;
+    margin: 12px 0px 0px;
+    padding: 3px;
+}
+
+.foot-btn {
+    text-align: start;
+    margin: 60px 0px 40px;
+}
+
+.Netflix-India p {
+    color: #bab7b7;
+    text-align: start;
+    font-size: 14px;
+    margin-bottom: 100px;
+}
